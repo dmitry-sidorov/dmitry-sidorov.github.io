@@ -1,0 +1,28 @@
+body {
+  margin: unset;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f3f3f3;
+}
+
+.page {
+  border: 1px solid gray;
+  display: flex;
+  height: 100vh;
+  width: 1024px;
+}
+
+.section__left {
+  background: linear-gradient(#f4f7d2, #f0f4c2);
+  flex-basis: 50%;
+}
+
+.section__right {
+  flex-basis: 50%;
+  background: #fff;
+}
