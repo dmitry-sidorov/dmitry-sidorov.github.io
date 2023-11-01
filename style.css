@@ -34,7 +34,7 @@ main {
   background: #fff;
 }
 
-.hero__photo > img {
+.hero__photo {
   height: 180px;
   clip-path: circle();
 }
